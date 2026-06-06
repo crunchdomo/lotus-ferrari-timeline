@@ -23,11 +23,14 @@ import {
 import { SECTIONS, FERRARI_LIVERY, type SeasonData } from "@/data/types";
 import { CONTENT } from "@/data/content";
 import PointsRaceChart from "@/components/PointsRaceChart";
+import season1958 from "@/data/seasons/1958.json";
+import season1967 from "@/data/seasons/1967.json";
 import season1970 from "@/data/seasons/1970.json";
 
-// Committed season data, keyed by year. Only 1970 is wired this pass; adding
-// the other points-race beats (build step 4) is one more import each.
+// Committed season data, keyed by year, for the points-race beats.
 const SEASON_DATA: Record<number, SeasonData> = {
+  1958: season1958 as unknown as SeasonData,
+  1967: season1967 as unknown as SeasonData,
   1970: season1970 as unknown as SeasonData,
 };
 
@@ -97,10 +100,6 @@ export default function Scrollytelling() {
               transition={fade}
               className="flex min-h-0 flex-1 flex-col gap-4"
             >
-              <span className="font-data text-xs uppercase tracking-widest text-accent">
-                #{active.id} · {active.visual}
-              </span>
-
               {seasonForBeat ? (
                 // The persistent morphing chart for points-race beats.
                 <div className="min-h-0 flex-1">
