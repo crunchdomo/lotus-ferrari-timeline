@@ -108,9 +108,11 @@ export const SECTIONS: Section[] = [
     kicker: "1970 · Rindt",
     visual: "points-race",
     lotusLivery: {
-      primary: "#B30000",
-      secondary: "#FFFFFF",
-      label: "Gold Leaf red / white / gold",
+      // Gold-forward so the chart line reads distinctly against Ferrari rosso
+      // (Gold Leaf was red with a gold/white band; gold is its legible accent).
+      primary: "#B8860B",
+      secondary: "#B30000",
+      label: "Gold Leaf gold / red",
     },
     annotations: { 10: "Monza: Rindt killed in practice" },
   },

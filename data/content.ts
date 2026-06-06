@@ -49,6 +49,13 @@ export const SECTION_IMAGES: Record<string, SectionImage> = {
     creditUrl:
       "https://commons.wikimedia.org/wiki/File:Ronnie_Peterson_-_Lotus_79_at_Druids_at_the_1978_British_Grand_Prix_(50050520537).jpg",
   },
+  "epilogue": {
+    src: "/images/chapman-1979.jpg",
+    alt: "Colin Chapman in the pits at the 1979 Race of Champions",
+    credit: "Photo: Martin Lee, CC BY-SA 2.0",
+    creditUrl:
+      "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_the_pits_at_the_1979_Race_of_Champions_(50140833216).jpg",
+  },
 };
 
 export const HERO: Hero = {

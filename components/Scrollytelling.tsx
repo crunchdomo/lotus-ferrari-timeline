@@ -145,19 +145,22 @@ export default function Scrollytelling() {
                 </h2>
               )}
 
-              {/* Livery comparison; doubles as the chart legend. */}
-              <div className="mt-2 flex flex-col gap-2 font-data text-xs text-ink-muted">
-                <LiverySwatch
-                  label={`Lotus · ${active.lotusLivery.label}`}
-                  primary={active.lotusLivery.primary}
-                  secondary={active.lotusLivery.secondary}
-                />
-                <LiverySwatch
-                  label={`Ferrari · ${FERRARI_LIVERY.label}`}
-                  primary={FERRARI_LIVERY.primary}
-                  secondary={FERRARI_LIVERY.secondary}
-                />
-              </div>
+              {/* Livery swatches act as the chart legend, so show them only
+                  with the chart; under a photo they would explain nothing. */}
+              {seasonForBeat && (
+                <div className="mt-2 flex flex-col gap-2 font-data text-xs text-ink-muted">
+                  <LiverySwatch
+                    label={`Lotus · ${active.lotusLivery.label}`}
+                    primary={active.lotusLivery.primary}
+                    secondary={active.lotusLivery.secondary}
+                  />
+                  <LiverySwatch
+                    label={`Ferrari · ${FERRARI_LIVERY.label}`}
+                    primary={FERRARI_LIVERY.primary}
+                    secondary={FERRARI_LIVERY.secondary}
+                  />
+                </div>
+              )}
             </motion.div>
           </AnimatePresence>
 
