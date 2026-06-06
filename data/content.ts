@@ -25,9 +25,11 @@ export interface SectionImage {
   alt: string;
   credit?: string;
   creditUrl?: string; // link to source / license (required for CC attribution)
+  label?: string; // short toggle-button label when a beat has a pair
 }
 
-export const SECTION_IMAGES: Record<string, SectionImage> = {
+// A beat shows one image, or a pair (rendered side by side) for a split.
+export const SECTION_IMAGES: Record<string, SectionImage | SectionImage[]> = {
   "clark-peak": {
     src: "/images/clark-1962-dutch-gp.jpg",
     alt: "Jim Clark in the Lotus 25 at the 1962 Dutch Grand Prix",
@@ -35,13 +37,24 @@ export const SECTION_IMAGES: Record<string, SectionImage> = {
     creditUrl:
       "https://commons.wikimedia.org/wiki/File:Clark_at_1962_Dutch_Grand_Prix.jpg",
   },
-  "jps": {
-    src: "/images/lotus-72-fittipaldi-1971.jpg",
-    alt: "Emerson Fittipaldi in the Lotus 72, 1971",
-    credit: "Photo: Lothar Spurzem, CC BY-SA 3.0 DE",
-    creditUrl:
-      "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG",
-  },
+  // Split: the black-and-gold ascendant beside red at its nadir.
+  "jps": [
+    {
+      src: "/images/lotus-72-fittipaldi-1971.jpg",
+      alt: "Emerson Fittipaldi in the Lotus 72, 1971",
+      credit: "Photo: Lothar Spurzem, CC BY-SA 3.0 DE",
+      creditUrl:
+        "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG",
+      label: "Lotus 72",
+    },
+    {
+      src: "/images/ferrari-312b3-1972.jpg",
+      alt: "Ferrari 312B3 Spazzaneve, the experimental car of Ferrari's nadir years",
+      credit: "Photo: Brian Snelson, CC BY 2.0",
+      creditUrl: "https://commons.wikimedia.org/wiki/File:Derek_Bell_2008_Goodwood.jpg",
+      label: "Ferrari 312B3",
+    },
+  ],
   "ground-effect": {
     src: "/images/lotus-79-1978.jpg",
     alt: "Ronnie Peterson's Lotus 79 at Druids, 1978 British Grand Prix",

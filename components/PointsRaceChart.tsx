@@ -18,7 +18,7 @@ import { useMemo } from "react";
 import { scaleLinear } from "d3-scale";
 import { line, curveMonotoneX } from "d3-shape";
 import { motion, useReducedMotion } from "motion/react";
-import type { SeasonData, Livery } from "@/data/types";
+import type { SeasonData, Livery, ChartAnnotation } from "@/data/types";
 
 interface Pt {
   x: number;
@@ -38,7 +38,7 @@ export default function PointsRaceChart({
   season: SeasonData;
   lotusLivery: Livery;
   ferrariLivery: Livery;
-  annotations?: Record<number, string>;
+  annotations?: ChartAnnotation[];
 }) {
   const reduce = useReducedMotion();
 
@@ -69,20 +69,20 @@ export default function PointsRaceChart({
       const yTicks: number[] = [];
       for (let v = 0; v <= yMax; v += 20) yTicks.push(v);
 
-      const annoMarks = annotations
-        ? Object.entries(annotations).map(([round, label]) => {
-            const rn = Number(round);
-            const entry = rounds.find((r) => r.round === rn);
-            const [head, ...rest] = label.split(":");
-            return {
-              round: rn,
-              head: head.trim(),
-              detail: rest.join(":").trim(),
-              cx: x(rn),
-              cy: y(entry?.lotus?.points ?? 0),
-            };
-          })
-        : [];
+      const annoMarks = (annotations ?? []).map((a) => {
+        const entry = rounds.find((r) => r.round === a.round);
+        const value =
+          a.team === "ferrari" ? entry?.ferrari?.points ?? 0 : entry?.lotus?.points ?? 0;
+        const [head, ...rest] = a.label.split(":");
+        return {
+          key: `${a.team}-${a.round}`,
+          team: a.team,
+          head: head.trim(),
+          detail: rest.join(":").trim(),
+          cx: x(a.round),
+          cy: y(value),
+        };
+      });
 
       return {
         lotusPath: gen(lotusSeries) ?? "",
@@ -155,56 +155,63 @@ export default function PointsRaceChart({
           </text>
         ))}
 
-      {/* annotation (e.g. Monza, R10) */}
-      {annoMarks.map((a) => (
-        <motion.g
-          key={a.round}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={fadeT(reduce ? 0 : 1.05)}
-        >
-          <line
-            x1={a.cx}
-            x2={a.cx}
-            y1={M.top}
-            y2={VIEW_H - M.bottom}
-            stroke="var(--ink-muted)"
-            strokeWidth={1}
-            strokeDasharray="3 3"
-          />
-          <text
-            x={a.cx - 8}
-            y={M.top + 2}
-            textAnchor="end"
-            className="font-data"
-            fontSize={11}
-            fontWeight={700}
-            fill="var(--ink)"
+      {/* annotations: Lotus callouts sit up top, Ferrari low, so two adjacent
+          markers (e.g. Monza R10 and Austria R9 in 1970) never collide. */}
+      {annoMarks.map((a) => {
+        const top = a.team === "lotus";
+        const headY = top ? M.top + 2 : VIEW_H - M.bottom - 16;
+        const detailY = top ? M.top + 17 : VIEW_H - M.bottom - 2;
+        const color = a.team === "ferrari" ? ferrariLivery.primary : lotusLivery.primary;
+        return (
+          <motion.g
+            key={a.key}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={fadeT(reduce ? 0 : 1.05)}
           >
-            {a.head}
-          </text>
-          {a.detail && (
+            <line
+              x1={a.cx}
+              x2={a.cx}
+              y1={M.top}
+              y2={VIEW_H - M.bottom}
+              stroke="var(--ink-muted)"
+              strokeWidth={1}
+              strokeDasharray="3 3"
+            />
             <text
               x={a.cx - 8}
-              y={M.top + 17}
+              y={headY}
               textAnchor="end"
               className="font-data"
-              fontSize={10}
-              fill="var(--ink-muted)"
+              fontSize={11}
+              fontWeight={700}
+              fill="var(--ink)"
             >
-              {a.detail}
+              {a.head}
             </text>
-          )}
-          <circle
-            cx={a.cx}
-            cy={a.cy}
-            r={4}
-            fill={lotusLivery.primary}
-            stroke="var(--paper)"
-            strokeWidth={1.5}
-          />
-        </motion.g>
-      ))}
+            {a.detail && (
+              <text
+                x={a.cx - 8}
+                y={detailY}
+                textAnchor="end"
+                className="font-data"
+                fontSize={10}
+                fill="var(--ink-muted)"
+              >
+                {a.detail}
+              </text>
+            )}
+            <circle
+              cx={a.cx}
+              cy={a.cy}
+              r={4}
+              fill={color}
+              stroke="var(--paper)"
+              strokeWidth={1.5}
+            />
+          </motion.g>
+        );
+      })}
 
       {/* Ferrari line (with casing) */}
       <motion.path d={ferrariPath} fill="none" stroke="var(--paper)" strokeWidth={5} strokeLinecap="round" {...draw} />

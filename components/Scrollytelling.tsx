@@ -23,6 +23,7 @@ import {
 import { SECTIONS, FERRARI_LIVERY, type SeasonData } from "@/data/types";
 import { CONTENT, SECTION_IMAGES } from "@/data/content";
 import PointsRaceChart from "@/components/PointsRaceChart";
+import BeatImages from "@/components/BeatImages";
 import season1958 from "@/data/seasons/1958.json";
 import season1967 from "@/data/seasons/1967.json";
 import season1970 from "@/data/seasons/1970.json";
@@ -69,8 +70,9 @@ export default function Scrollytelling() {
   // Points-race beats render the live chart if their season data is wired.
   const seasonForBeat =
     active.visual === "points-race" ? SEASON_DATA[active.years[0]] : undefined;
-  // A supplied image takes priority over the chart / SVG / placeholder.
-  const beatImage = SECTION_IMAGES[active.id];
+  // A supplied image (or pair) takes priority over the chart / placeholder.
+  const rawImage = SECTION_IMAGES[active.id];
+  const beatImages = rawImage ? (Array.isArray(rawImage) ? rawImage : [rawImage]) : [];
 
   return (
     <>
@@ -102,32 +104,9 @@ export default function Scrollytelling() {
               transition={fade}
               className="flex min-h-0 flex-1 flex-col gap-4"
             >
-              {beatImage ? (
-                // A supplied photograph/diagram for this beat.
-                <figure className="flex min-h-0 flex-1 flex-col gap-2">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={beatImage.src}
-                    alt={beatImage.alt}
-                    className="min-h-0 w-full flex-1 rounded-sm object-contain"
-                  />
-                  {beatImage.credit && (
-                    <figcaption className="font-data text-[0.65rem] uppercase text-ink-muted">
-                      {beatImage.creditUrl ? (
-                        <a
-                          href={beatImage.creditUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="underline decoration-hairline underline-offset-2 hover:text-ink"
-                        >
-                          {beatImage.credit}
-                        </a>
-                      ) : (
-                        beatImage.credit
-                      )}
-                    </figcaption>
-                  )}
-                </figure>
+              {beatImages.length > 0 ? (
+                // One photo, or a marque toggle for split beats.
+                <BeatImages images={beatImages} />
               ) : seasonForBeat ? (
                 // The persistent morphing chart for points-race beats.
                 <div className="min-h-0 flex-1">
@@ -193,9 +172,9 @@ export default function Scrollytelling() {
               ))}
               {s.annotations && (
                 <ul className="mt-2 border-l-2 border-accent/40 pl-4 font-data text-xs text-ink-muted">
-                  {Object.entries(s.annotations).map(([round, note]) => (
-                    <li key={round}>
-                      R{round}: {note}
+                  {s.annotations.map((a) => (
+                    <li key={`${a.team}-${a.round}`}>
+                      R{a.round}: {a.label}
                     </li>
                   ))}
                 </ul>
