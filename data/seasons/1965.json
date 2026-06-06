@@ -1,0 +1,191 @@
+{
+  "year": 1965,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "South African Grand Prix",
+      "circuit": "Prince George Circuit",
+      "country": "South Africa",
+      "date": "1965-01-01",
+      "lotus": {
+        "points": 9,
+        "position": 1,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 6,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1965-05-30",
+      "lotus": {
+        "points": 9,
+        "position": 3,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "1965-06-13",
+      "lotus": {
+        "points": 18,
+        "position": 2,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "French Grand Prix",
+      "circuit": "Charade Circuit",
+      "country": "France",
+      "date": "1965-06-27",
+      "lotus": {
+        "points": 27,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 16,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1965-07-10",
+      "lotus": {
+        "points": 36,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1965-07-18",
+      "lotus": {
+        "points": 45,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1965-08-01",
+      "lotus": {
+        "points": 54,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 21,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1965-09-12",
+      "lotus": {
+        "points": 55,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 24,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1965-10-03",
+      "lotus": {
+        "points": 55,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 26,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "Mexican Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "date": "1965-10-24",
+      "lotus": {
+        "points": 56,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 26,
+        "position": 4,
+        "wins": 0
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 56,
+      "position": 1,
+      "wins": 6
+    },
+    "ferrari": {
+      "points": 26,
+      "position": 4,
+      "wins": 0
+    },
+    "champion": {
+      "id": "lotus-climax",
+      "name": "Lotus-Climax"
+    }
+  }
+}

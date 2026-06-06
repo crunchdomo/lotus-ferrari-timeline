@@ -1,0 +1,204 @@
+{
+  "year": 1958,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "Argentine Grand Prix",
+      "circuit": "Autódromo Juan y Oscar Gálvez",
+      "country": "Argentina",
+      "date": "1958-01-19",
+      "lotus": null,
+      "ferrari": {
+        "points": 6,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1958-05-18",
+      "lotus": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1958-05-26",
+      "lotus": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 14,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "Indianapolis 500",
+      "circuit": "Indianapolis Motor Speedway",
+      "country": "USA",
+      "date": "1958-05-30",
+      "lotus": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 14,
+        "position": 2,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "1958-06-15",
+      "lotus": {
+        "points": 3,
+        "position": 5,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 1,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "French Grand Prix",
+      "circuit": "Reims-Gueux",
+      "country": "France",
+      "date": "1958-07-06",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 28,
+        "position": 1,
+        "wins": 1
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1958-07-19",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 36,
+        "position": 1,
+        "wins": 2
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1958-08-03",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 37,
+        "position": 1,
+        "wins": 2
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "Portuguese Grand Prix",
+      "circuit": "Circuito da Boavista",
+      "country": "Portugal",
+      "date": "1958-08-24",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 40,
+        "position": 2,
+        "wins": 2
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1958-09-07",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 40,
+        "position": 2,
+        "wins": 2
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "Moroccan Grand Prix",
+      "circuit": "Ain Diab",
+      "country": "Morocco",
+      "date": "1958-10-19",
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 40,
+        "position": 2,
+        "wins": 2
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 3,
+      "position": 6,
+      "wins": 0
+    },
+    "ferrari": {
+      "points": 40,
+      "position": 2,
+      "wins": 2
+    },
+    "champion": {
+      "id": "vanwall",
+      "name": "Vanwall"
+    }
+  }
+}

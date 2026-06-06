@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Design tokens.
+
+   PLACEHOLDER PALETTE. These are seeded vintage-motorsport values
+   in OKLCH so the skeleton renders on-theme. Replace the :root block
+   below with the real token file exported from adamoentoro.com
+   (OKLCH color tokens) before building finished components, then keep
+   the @theme mapping that exposes them to Tailwind utilities.
+   ============================================================ */
+
+:root {
+  /* Surfaces: warm paper, aged ink. */
+  --paper: oklch(0.962 0.012 88);
+  --paper-2: oklch(0.928 0.016 86); /* recessed panels, footer */
+  --ink: oklch(0.222 0.012 65); /* body text, foreground */
+  --ink-muted: oklch(0.5 0.018 70); /* captions, data labels */
+  --hairline: oklch(0.86 0.014 84); /* rules, borders */
+
+  /* Editorial accent (used sparingly; liveries carry the chart). */
+  --accent: oklch(0.52 0.12 28); /* oxblood / rosso, ties to Ferrari */
+  --accent-ink: oklch(0.97 0.01 88);
+}
+
+@theme inline {
+  /* Colors -> bg-paper, text-ink, border-hairline, etc. */
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-hairline: var(--hairline);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+
+  /* Type: Fraunces (display), Inter (body), Space Mono (data labels). */
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-space-mono);
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  /* Honor a user's reduced-motion preference for the scroll work. */
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Data labels and kickers read as instrument-panel type. */
+.font-data {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}

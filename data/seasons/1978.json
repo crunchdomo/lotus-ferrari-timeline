@@ -1,0 +1,293 @@
+{
+  "year": 1978,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "Argentine Grand Prix",
+      "circuit": "Autódromo Juan y Oscar Gálvez",
+      "country": "Argentina",
+      "date": "1978-01-15",
+      "lotus": {
+        "points": 9,
+        "position": 1,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Brazilian Grand Prix",
+      "circuit": "Autódromo Internacional Nelson Piquet",
+      "country": "Brazil",
+      "date": "1978-01-29",
+      "lotus": {
+        "points": 12,
+        "position": 1,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 3,
+        "wins": 1
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "South African Grand Prix",
+      "circuit": "Kyalami",
+      "country": "South Africa",
+      "date": "1978-03-04",
+      "lotus": {
+        "points": 21,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 4,
+        "wins": 1
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "United States Grand Prix West",
+      "circuit": "Long Beach",
+      "country": "USA",
+      "date": "1978-04-02",
+      "lotus": {
+        "points": 27,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 18,
+        "position": 2,
+        "wins": 2
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1978-05-07",
+      "lotus": {
+        "points": 27,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 18,
+        "position": 4,
+        "wins": 2
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Zolder",
+      "country": "Belgium",
+      "date": "1978-05-21",
+      "lotus": {
+        "points": 36,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 3,
+        "wins": 2
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "Spanish Grand Prix",
+      "circuit": "Jarama",
+      "country": "Spain",
+      "date": "1978-06-04",
+      "lotus": {
+        "points": 45,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 3,
+        "wins": 2
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "Swedish Grand Prix",
+      "circuit": "Scandinavian Raceway",
+      "country": "Sweden",
+      "date": "1978-06-17",
+      "lotus": {
+        "points": 49,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 4,
+        "wins": 2
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "French Grand Prix",
+      "circuit": "Circuit Paul Ricard",
+      "country": "France",
+      "date": "1978-07-02",
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 4,
+        "wins": 2
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuit": "Brands Hatch",
+      "country": "UK",
+      "date": "1978-07-16",
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 31,
+        "position": 3,
+        "wins": 3
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuit": "Hockenheimring",
+      "country": "Germany",
+      "date": "1978-07-30",
+      "lotus": {
+        "points": 67,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 31,
+        "position": 3,
+        "wins": 3
+      }
+    },
+    {
+      "round": 12,
+      "raceName": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "country": "Austria",
+      "date": "1978-08-13",
+      "lotus": {
+        "points": 76,
+        "position": 1,
+        "wins": 7
+      },
+      "ferrari": {
+        "points": 35,
+        "position": 4,
+        "wins": 3
+      }
+    },
+    {
+      "round": 13,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1978-08-27",
+      "lotus": {
+        "points": 85,
+        "position": 1,
+        "wins": 8
+      },
+      "ferrari": {
+        "points": 36,
+        "position": 3,
+        "wins": 3
+      }
+    },
+    {
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1978-09-10",
+      "lotus": {
+        "points": 86,
+        "position": 1,
+        "wins": 8
+      },
+      "ferrari": {
+        "points": 40,
+        "position": 3,
+        "wins": 3
+      }
+    },
+    {
+      "round": 15,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1978-10-01",
+      "lotus": {
+        "points": 86,
+        "position": 1,
+        "wins": 8
+      },
+      "ferrari": {
+        "points": 49,
+        "position": 3,
+        "wins": 4
+      }
+    },
+    {
+      "round": 16,
+      "raceName": "Canadian Grand Prix",
+      "circuit": "Circuit Gilles Villeneuve",
+      "country": "Canada",
+      "date": "1978-10-08",
+      "lotus": {
+        "points": 86,
+        "position": 1,
+        "wins": 8
+      },
+      "ferrari": {
+        "points": 58,
+        "position": 2,
+        "wins": 5
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 86,
+      "position": 1,
+      "wins": 8
+    },
+    "ferrari": {
+      "points": 58,
+      "position": 2,
+      "wins": 5
+    },
+    "champion": {
+      "id": "team_lotus",
+      "name": "Team Lotus"
+    }
+  }
+}

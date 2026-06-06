@@ -1,0 +1,204 @@
+{
+  "year": 1967,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "South African Grand Prix",
+      "circuit": "Kyalami",
+      "country": "South Africa",
+      "date": "1967-01-02",
+      "lotus": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      },
+      "ferrari": null
+    },
+    {
+      "round": 2,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1967-05-07",
+      "lotus": {
+        "points": 6,
+        "position": 3,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 4,
+        "position": 6,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1967-06-04",
+      "lotus": {
+        "points": 15,
+        "position": 3,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "1967-06-18",
+      "lotus": {
+        "points": 16,
+        "position": 4,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 11,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "French Grand Prix",
+      "circuit": "Le Mans",
+      "country": "France",
+      "date": "1967-07-02",
+      "lotus": {
+        "points": 16,
+        "position": 5,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 11,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1967-07-15",
+      "lotus": {
+        "points": 25,
+        "position": 2,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 15,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1967-08-06",
+      "lotus": {
+        "points": 25,
+        "position": 3,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 19,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuit": "Mosport International Raceway",
+      "country": "Canada",
+      "date": "1967-08-27",
+      "lotus": {
+        "points": 28,
+        "position": 2,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1967-09-10",
+      "lotus": {
+        "points": 32,
+        "position": 2,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1967-10-01",
+      "lotus": {
+        "points": 41,
+        "position": 2,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "Mexican Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "date": "1967-10-22",
+      "lotus": {
+        "points": 50,
+        "position": 2,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 5,
+        "wins": 0
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 50,
+      "position": 2,
+      "wins": 4
+    },
+    "ferrari": {
+      "points": 20,
+      "position": 5,
+      "wins": 0
+    },
+    "champion": {
+      "id": "brabham-repco",
+      "name": "Brabham-Repco"
+    }
+  }
+}

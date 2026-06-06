@@ -1,0 +1,225 @@
+{
+  "year": 1972,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "Argentine Grand Prix",
+      "circuit": "Autódromo Juan y Oscar Gálvez",
+      "country": "Argentina",
+      "date": "1972-01-23",
+      "lotus": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 4,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "South African Grand Prix",
+      "circuit": "Kyalami",
+      "country": "South Africa",
+      "date": "1972-03-04",
+      "lotus": {
+        "points": 6,
+        "position": 4,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Spanish Grand Prix",
+      "circuit": "Jarama",
+      "country": "Spain",
+      "date": "1972-05-01",
+      "lotus": {
+        "points": 15,
+        "position": 2,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 13,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1972-05-14",
+      "lotus": {
+        "points": 19,
+        "position": 1,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 19,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Nivelles-Baulers",
+      "country": "Belgium",
+      "date": "1972-06-04",
+      "lotus": {
+        "points": 28,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 19,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "French Grand Prix",
+      "circuit": "Charade Circuit",
+      "country": "France",
+      "date": "1972-07-02",
+      "lotus": {
+        "points": 34,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 19,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "British Grand Prix",
+      "circuit": "Brands Hatch",
+      "country": "UK",
+      "date": "1972-07-15",
+      "lotus": {
+        "points": 43,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1972-07-30",
+      "lotus": {
+        "points": 43,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 29,
+        "position": 3,
+        "wins": 1
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "country": "Austria",
+      "date": "1972-08-13",
+      "lotus": {
+        "points": 52,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 29,
+        "position": 4,
+        "wins": 1
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1972-09-10",
+      "lotus": {
+        "points": 61,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 29,
+        "position": 4,
+        "wins": 1
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "Canadian Grand Prix",
+      "circuit": "Mosport International Raceway",
+      "country": "Canada",
+      "date": "1972-09-24",
+      "lotus": {
+        "points": 61,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 31,
+        "position": 4,
+        "wins": 1
+      }
+    },
+    {
+      "round": 12,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1972-10-08",
+      "lotus": {
+        "points": 61,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 33,
+        "position": 4,
+        "wins": 1
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 61,
+      "position": 1,
+      "wins": 5
+    },
+    "ferrari": {
+      "points": 33,
+      "position": 4,
+      "wins": 1
+    },
+    "champion": {
+      "id": "team_lotus",
+      "name": "Team Lotus"
+    }
+  }
+}

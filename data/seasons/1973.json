@@ -1,0 +1,276 @@
+{
+  "year": 1973,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "Argentine Grand Prix",
+      "circuit": "Autódromo Juan y Oscar Gálvez",
+      "country": "Argentina",
+      "date": "1973-01-28",
+      "lotus": {
+        "points": 9,
+        "position": 1,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 3,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Brazilian Grand Prix",
+      "circuit": "Autódromo José Carlos Pace",
+      "country": "Brazil",
+      "date": "1973-02-11",
+      "lotus": {
+        "points": 18,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 6,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "South African Grand Prix",
+      "circuit": "Kyalami",
+      "country": "South Africa",
+      "date": "1973-03-03",
+      "lotus": {
+        "points": 22,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "Spanish Grand Prix",
+      "circuit": "Montjuïc",
+      "country": "Spain",
+      "date": "1973-04-29",
+      "lotus": {
+        "points": 31,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Zolder",
+      "country": "Belgium",
+      "date": "1973-05-20",
+      "lotus": {
+        "points": 35,
+        "position": 2,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1973-06-03",
+      "lotus": {
+        "points": 41,
+        "position": 2,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 9,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "Swedish Grand Prix",
+      "circuit": "Scandinavian Raceway",
+      "country": "Sweden",
+      "date": "1973-06-17",
+      "lotus": {
+        "points": 43,
+        "position": 2,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 10,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "French Grand Prix",
+      "circuit": "Circuit Paul Ricard",
+      "country": "France",
+      "date": "1973-07-01",
+      "lotus": {
+        "points": 52,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1973-07-14",
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1973-07-29",
+      "lotus": {
+        "points": 58,
+        "position": 2,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1973-08-05",
+      "lotus": {
+        "points": 59,
+        "position": 2,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 12,
+      "raceName": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "country": "Austria",
+      "date": "1973-08-19",
+      "lotus": {
+        "points": 68,
+        "position": 2,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1973-09-09",
+      "lotus": {
+        "points": 77,
+        "position": 2,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 14,
+      "raceName": "Canadian Grand Prix",
+      "circuit": "Mosport International Raceway",
+      "country": "Canada",
+      "date": "1973-09-23",
+      "lotus": {
+        "points": 83,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 15,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1973-10-07",
+      "lotus": {
+        "points": 91,
+        "position": 1,
+        "wins": 7
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 6,
+        "wins": 0
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 91,
+      "position": 1,
+      "wins": 7
+    },
+    "ferrari": {
+      "points": 12,
+      "position": 6,
+      "wins": 0
+    },
+    "champion": {
+      "id": "team_lotus",
+      "name": "Team Lotus"
+    }
+  }
+}

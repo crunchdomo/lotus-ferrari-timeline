@@ -1,0 +1,242 @@
+{
+  "year": 1970,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "South African Grand Prix",
+      "circuit": "Kyalami",
+      "country": "South Africa",
+      "date": "1970-03-07",
+      "lotus": {
+        "points": 2,
+        "position": 5,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Spanish Grand Prix",
+      "circuit": "Jarama",
+      "country": "Spain",
+      "date": "1970-04-19",
+      "lotus": {
+        "points": 5,
+        "position": 4,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1970-05-10",
+      "lotus": {
+        "points": 14,
+        "position": 3,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 0,
+        "position": null,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "1970-06-07",
+      "lotus": {
+        "points": 14,
+        "position": 4,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 3,
+        "position": 7,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1970-06-21",
+      "lotus": {
+        "points": 23,
+        "position": 2,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 7,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "French Grand Prix",
+      "circuit": "Charade Circuit",
+      "country": "France",
+      "date": "1970-07-05",
+      "lotus": {
+        "points": 32,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 7,
+        "wins": 0
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "British Grand Prix",
+      "circuit": "Brands Hatch",
+      "country": "UK",
+      "date": "1970-07-18",
+      "lotus": {
+        "points": 41,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 10,
+        "position": 7,
+        "wins": 0
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "German Grand Prix",
+      "circuit": "Hockenheimring",
+      "country": "Germany",
+      "date": "1970-08-02",
+      "lotus": {
+        "points": 50,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 16,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuit": "Red Bull Ring",
+      "country": "Austria",
+      "date": "1970-08-16",
+      "lotus": {
+        "points": 50,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 25,
+        "position": 5,
+        "wins": 1
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1970-09-06",
+      "lotus": {
+        "points": 50,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 34,
+        "position": 4,
+        "wins": 2
+      }
+    },
+    {
+      "round": 11,
+      "raceName": "Canadian Grand Prix",
+      "circuit": "Circuit Mont-Tremblant",
+      "country": "Canada",
+      "date": "1970-09-20",
+      "lotus": {
+        "points": 50,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 43,
+        "position": 2,
+        "wins": 3
+      }
+    },
+    {
+      "round": 12,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1970-10-04",
+      "lotus": {
+        "points": 59,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 46,
+        "position": 2,
+        "wins": 3
+      }
+    },
+    {
+      "round": 13,
+      "raceName": "Mexican Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "date": "1970-10-25",
+      "lotus": {
+        "points": 59,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 55,
+        "position": 2,
+        "wins": 4
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 59,
+      "position": 1,
+      "wins": 6
+    },
+    "ferrari": {
+      "points": 55,
+      "position": 2,
+      "wins": 4
+    },
+    "champion": {
+      "id": "team_lotus",
+      "name": "Team Lotus"
+    }
+  }
+}

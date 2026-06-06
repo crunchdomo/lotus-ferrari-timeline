@@ -1,0 +1,191 @@
+{
+  "year": 1963,
+  "rounds": [
+    {
+      "round": 1,
+      "raceName": "Monaco Grand Prix",
+      "circuit": "Circuit de Monaco",
+      "country": "Monaco",
+      "date": "1963-05-26",
+      "lotus": {
+        "points": 1,
+        "position": 4,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 3,
+        "position": 3,
+        "wins": 0
+      }
+    },
+    {
+      "round": 2,
+      "raceName": "Belgian Grand Prix",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "country": "Belgium",
+      "date": "1963-06-09",
+      "lotus": {
+        "points": 10,
+        "position": 2,
+        "wins": 1
+      },
+      "ferrari": {
+        "points": 3,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 3,
+      "raceName": "Dutch Grand Prix",
+      "circuit": "Circuit Park Zandvoort",
+      "country": "Netherlands",
+      "date": "1963-06-23",
+      "lotus": {
+        "points": 19,
+        "position": 1,
+        "wins": 2
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 4,
+      "raceName": "French Grand Prix",
+      "circuit": "Reims-Gueux",
+      "country": "France",
+      "date": "1963-06-30",
+      "lotus": {
+        "points": 29,
+        "position": 1,
+        "wins": 3
+      },
+      "ferrari": {
+        "points": 7,
+        "position": 5,
+        "wins": 0
+      }
+    },
+    {
+      "round": 5,
+      "raceName": "British Grand Prix",
+      "circuit": "Silverstone Circuit",
+      "country": "UK",
+      "date": "1963-07-20",
+      "lotus": {
+        "points": 39,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 13,
+        "position": 4,
+        "wins": 0
+      }
+    },
+    {
+      "round": 6,
+      "raceName": "German Grand Prix",
+      "circuit": "Nürburgring",
+      "country": "Germany",
+      "date": "1963-08-04",
+      "lotus": {
+        "points": 47,
+        "position": 1,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 2,
+        "wins": 1
+      }
+    },
+    {
+      "round": 7,
+      "raceName": "Italian Grand Prix",
+      "circuit": "Autodromo Nazionale di Monza",
+      "country": "Italy",
+      "date": "1963-09-08",
+      "lotus": {
+        "points": 55,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 22,
+        "position": 3,
+        "wins": 1
+      }
+    },
+    {
+      "round": 8,
+      "raceName": "United States Grand Prix",
+      "circuit": "Watkins Glen",
+      "country": "USA",
+      "date": "1963-10-06",
+      "lotus": {
+        "points": 55,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 24,
+        "position": 3,
+        "wins": 1
+      }
+    },
+    {
+      "round": 9,
+      "raceName": "Mexican Grand Prix",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "country": "Mexico",
+      "date": "1963-10-27",
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 24,
+        "position": 3,
+        "wins": 1
+      }
+    },
+    {
+      "round": 10,
+      "raceName": "South African Grand Prix",
+      "circuit": "Prince George Circuit",
+      "country": "South Africa",
+      "date": "1963-12-28",
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 7
+      },
+      "ferrari": {
+        "points": 26,
+        "position": 4,
+        "wins": 1
+      }
+    }
+  ],
+  "final": {
+    "lotus": {
+      "points": 58,
+      "position": 1,
+      "wins": 7
+    },
+    "ferrari": {
+      "points": 26,
+      "position": 4,
+      "wins": 1
+    },
+    "champion": {
+      "id": "lotus-climax",
+      "name": "Lotus-Climax"
+    }
+  }
+}

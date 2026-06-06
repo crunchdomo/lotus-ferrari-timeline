@@ -1,0 +1,162 @@
+[
+  {
+    "year": 1958,
+    "file": "data/seasons/1958.json",
+    "final": {
+      "lotus": {
+        "points": 3,
+        "position": 6,
+        "wins": 0
+      },
+      "ferrari": {
+        "points": 40,
+        "position": 2,
+        "wins": 2
+      },
+      "champion": {
+        "id": "vanwall",
+        "name": "Vanwall"
+      }
+    }
+  },
+  {
+    "year": 1963,
+    "file": "data/seasons/1963.json",
+    "final": {
+      "lotus": {
+        "points": 58,
+        "position": 1,
+        "wins": 7
+      },
+      "ferrari": {
+        "points": 26,
+        "position": 4,
+        "wins": 1
+      },
+      "champion": {
+        "id": "lotus-climax",
+        "name": "Lotus-Climax"
+      }
+    }
+  },
+  {
+    "year": 1965,
+    "file": "data/seasons/1965.json",
+    "final": {
+      "lotus": {
+        "points": 56,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 26,
+        "position": 4,
+        "wins": 0
+      },
+      "champion": {
+        "id": "lotus-climax",
+        "name": "Lotus-Climax"
+      }
+    }
+  },
+  {
+    "year": 1967,
+    "file": "data/seasons/1967.json",
+    "final": {
+      "lotus": {
+        "points": 50,
+        "position": 2,
+        "wins": 4
+      },
+      "ferrari": {
+        "points": 20,
+        "position": 5,
+        "wins": 0
+      },
+      "champion": {
+        "id": "brabham-repco",
+        "name": "Brabham-Repco"
+      }
+    }
+  },
+  {
+    "year": 1970,
+    "file": "data/seasons/1970.json",
+    "final": {
+      "lotus": {
+        "points": 59,
+        "position": 1,
+        "wins": 6
+      },
+      "ferrari": {
+        "points": 55,
+        "position": 2,
+        "wins": 4
+      },
+      "champion": {
+        "id": "team_lotus",
+        "name": "Team Lotus"
+      }
+    }
+  },
+  {
+    "year": 1972,
+    "file": "data/seasons/1972.json",
+    "final": {
+      "lotus": {
+        "points": 61,
+        "position": 1,
+        "wins": 5
+      },
+      "ferrari": {
+        "points": 33,
+        "position": 4,
+        "wins": 1
+      },
+      "champion": {
+        "id": "team_lotus",
+        "name": "Team Lotus"
+      }
+    }
+  },
+  {
+    "year": 1973,
+    "file": "data/seasons/1973.json",
+    "final": {
+      "lotus": {
+        "points": 91,
+        "position": 1,
+        "wins": 7
+      },
+      "ferrari": {
+        "points": 12,
+        "position": 6,
+        "wins": 0
+      },
+      "champion": {
+        "id": "team_lotus",
+        "name": "Team Lotus"
+      }
+    }
+  },
+  {
+    "year": 1978,
+    "file": "data/seasons/1978.json",
+    "final": {
+      "lotus": {
+        "points": 86,
+        "position": 1,
+        "wins": 8
+      },
+      "ferrari": {
+        "points": 58,
+        "position": 2,
+        "wins": 5
+      },
+      "champion": {
+        "id": "team_lotus",
+        "name": "Team Lotus"
+      }
+    }
+  }
+]
