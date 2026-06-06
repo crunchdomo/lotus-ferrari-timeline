@@ -80,10 +80,6 @@ export const HERO: Hero = {
 
 /** One or more short paragraphs per section. */
 export const CONTENT: Record<string, string[]> = {
-  arrival: [
-    "When Lotus arrived in Formula One, Ferrari was already a myth with a balance sheet. One was a way of thinking about weight and adhesion. The other was a way of thinking about itself.",
-    "The points say almost nothing yet. The premise is what matters: an idea had entered a room built for institutions.",
-  ],
   "clark-peak": [
     "The Type 25 put the driver inside the structure instead of on top of it. The monocoque was lighter, stiffer, and faster, and it made the spaceframe look like furniture.",
     "Clark and Chapman turned a clever chassis into a method. Ferrari answered with horsepower and heritage, which is to say with the things it already had.",

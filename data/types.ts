@@ -71,18 +71,6 @@ export interface Section {
 
 export const SECTIONS: Section[] = [
   {
-    id: "arrival",
-    years: [1958],
-    title: "An institution meets an idea",
-    kicker: "1958 · Lotus arrives in Ferrari's world",
-    visual: "points-race",
-    lotusLivery: {
-      primary: "#1B4D3E",
-      secondary: "#F2C500",
-      label: "British racing green / yellow",
-    },
-  },
-  {
     id: "clark-peak",
     years: [1963, 1965],
     title: "Clark, Chapman, and the monocoque",

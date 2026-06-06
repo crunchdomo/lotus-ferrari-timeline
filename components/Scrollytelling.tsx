@@ -24,13 +24,11 @@ import { SECTIONS, FERRARI_LIVERY, type SeasonData } from "@/data/types";
 import { CONTENT, SECTION_IMAGES } from "@/data/content";
 import PointsRaceChart from "@/components/PointsRaceChart";
 import BeatImages from "@/components/BeatImages";
-import season1958 from "@/data/seasons/1958.json";
 import season1967 from "@/data/seasons/1967.json";
 import season1970 from "@/data/seasons/1970.json";
 
 // Committed season data, keyed by year, for the points-race beats.
 const SEASON_DATA: Record<number, SeasonData> = {
-  1958: season1958 as unknown as SeasonData,
   1967: season1967 as unknown as SeasonData,
   1970: season1970 as unknown as SeasonData,
 };
