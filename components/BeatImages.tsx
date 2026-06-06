@@ -41,7 +41,7 @@ export default function BeatImages({ images }: { images: SectionImage[] }) {
   return (
     <div className="flex min-h-0 flex-1 flex-col gap-3">
       {multiple && (
-        <div className="inline-flex self-start overflow-hidden rounded-sm border border-hairline font-data text-[0.7rem] uppercase tracking-wide">
+        <div className="flex w-full overflow-hidden rounded-sm border border-hairline font-data text-[0.7rem] uppercase tracking-wide">
           {images.map((img, i) => (
             <button
               key={img.src}
@@ -49,7 +49,8 @@ export default function BeatImages({ images }: { images: SectionImage[] }) {
               onClick={() => setIndex(i)}
               aria-pressed={i === index}
               className={
-                "px-3 py-1 transition-colors " +
+                "flex-1 px-4 py-1.5 transition-colors " +
+                (i > 0 ? "border-l border-hairline " : "") +
                 (i === index
                   ? "bg-ink text-paper"
                   : "text-ink-muted hover:text-ink")

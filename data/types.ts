@@ -121,15 +121,15 @@ export const SECTIONS: Section[] = [
       label: "Gold Leaf gold / red",
     },
     annotations: [
-      { round: 10, label: "Monza: Rindt killed in practice", team: "lotus" },
       { round: 9, label: "Austria: Ferrari's first win", team: "ferrari" },
+      { round: 10, label: "Monza: Rindt killed in practice", team: "lotus" },
     ],
   },
   {
     id: "jps",
     years: [1972, 1973],
     title: "Black and gold, red at its nadir",
-    kicker: "1972–1973 · Black and gold, red at its nadir",
+    kicker: "1972–1973 · Fittipaldi's title, Ferrari's floor",
     visual: "livery-moment",
     lotusLivery: {
       primary: "#0A0A0A",
