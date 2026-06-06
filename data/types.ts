@@ -112,7 +112,7 @@ export const SECTIONS: Section[] = [
       secondary: "#FFFFFF",
       label: "Gold Leaf red / white / gold",
     },
-    annotations: { 8: "Monza: Rindt killed in practice" },
+    annotations: { 10: "Monza: Rindt killed in practice" },
   },
   {
     id: "jps",

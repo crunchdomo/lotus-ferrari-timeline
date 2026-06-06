@@ -20,8 +20,16 @@ import {
   motion,
   useReducedMotion,
 } from "motion/react";
-import { SECTIONS, FERRARI_LIVERY } from "@/data/types";
+import { SECTIONS, FERRARI_LIVERY, type SeasonData } from "@/data/types";
 import { CONTENT } from "@/data/content";
+import PointsRaceChart from "@/components/PointsRaceChart";
+import season1970 from "@/data/seasons/1970.json";
+
+// Committed season data, keyed by year. Only 1970 is wired this pass; adding
+// the other points-race beats (build step 4) is one more import each.
+const SEASON_DATA: Record<number, SeasonData> = {
+  1970: season1970 as unknown as SeasonData,
+};
 
 export default function Scrollytelling() {
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
@@ -55,6 +63,10 @@ export default function Scrollytelling() {
     ? { duration: 0 }
     : { duration: 0.4, ease: "easeOut" as const };
 
+  // Points-race beats render the live chart if their season data is wired.
+  const seasonForBeat =
+    active.visual === "points-race" ? SEASON_DATA[active.years[0]] : undefined;
+
   return (
     <>
       {/* Scroll progress rail */}
@@ -83,17 +95,30 @@ export default function Scrollytelling() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: reduce ? 0 : -8 }}
               transition={fade}
-              className="flex flex-col gap-4"
+              className="flex min-h-0 flex-1 flex-col gap-4"
             >
-              {/* Placeholder for the morphing visual: announce the beat. */}
               <span className="font-data text-xs uppercase tracking-widest text-accent">
                 #{active.id} · {active.visual}
               </span>
-              <h2 className="font-display text-2xl leading-tight md:text-4xl">
-                {active.title}
-              </h2>
 
-              {/* Livery comparison, period-correct per beat. */}
+              {seasonForBeat ? (
+                // The persistent morphing chart for points-race beats.
+                <div className="min-h-0 flex-1">
+                  <PointsRaceChart
+                    season={seasonForBeat}
+                    lotusLivery={active.lotusLivery}
+                    ferrariLivery={FERRARI_LIVERY}
+                    annotations={active.annotations}
+                  />
+                </div>
+              ) : (
+                // Placeholder for beats whose visual is not wired yet.
+                <h2 className="font-display text-2xl leading-tight md:text-4xl">
+                  {active.title}
+                </h2>
+              )}
+
+              {/* Livery comparison; doubles as the chart legend. */}
               <div className="mt-2 flex flex-col gap-2 font-data text-xs text-ink-muted">
                 <LiverySwatch
                   label={`Lotus · ${active.lotusLivery.label}`}
