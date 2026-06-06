@@ -13,6 +13,44 @@ export interface Hero {
   standfirst: string;
 }
 
+/**
+ * Optional image for a beat's visual panel, keyed by Section id. When present,
+ * it takes priority over the hand-built SVG / placeholder for that beat.
+ * Drop the file in /public/images/ and reference it as "/images/<file>".
+ * Use rights-clear images only (Wikimedia Commons, public domain, owned);
+ * `credit` renders as a small caption.
+ */
+export interface SectionImage {
+  src: string;
+  alt: string;
+  credit?: string;
+  creditUrl?: string; // link to source / license (required for CC attribution)
+}
+
+export const SECTION_IMAGES: Record<string, SectionImage> = {
+  "clark-peak": {
+    src: "/images/clark-1962-dutch-gp.jpg",
+    alt: "Jim Clark in the Lotus 25 at the 1962 Dutch Grand Prix",
+    credit: "Photo: Joop van Bilsen / Anefo, CC BY-SA 3.0 NL",
+    creditUrl:
+      "https://commons.wikimedia.org/wiki/File:Clark_at_1962_Dutch_Grand_Prix.jpg",
+  },
+  "jps": {
+    src: "/images/lotus-72-fittipaldi-1971.jpg",
+    alt: "Emerson Fittipaldi in the Lotus 72, 1971",
+    credit: "Photo: Lothar Spurzem, CC BY-SA 3.0 DE",
+    creditUrl:
+      "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG",
+  },
+  "ground-effect": {
+    src: "/images/lotus-79-1978.jpg",
+    alt: "Ronnie Peterson's Lotus 79 at Druids, 1978 British Grand Prix",
+    credit: "Photo: Martin Lee, CC BY-SA 2.0",
+    creditUrl:
+      "https://commons.wikimedia.org/wiki/File:Ronnie_Peterson_-_Lotus_79_at_Druids_at_the_1978_British_Grand_Prix_(50050520537).jpg",
+  },
+};
+
 export const HERO: Hero = {
   kicker: "Lotus vs Ferrari, 1958 to 1978",
   title: "An idea against an institution",
